@@ -10,3 +10,13 @@ describe('isLove', () => {
     expect(result1).toBe(true);
     });
   });
+
+describe('isLove', () => {
+  it('devolver true si una flor tiene un numero par de petalos y la otra un numeroimpar', () => {
+      
+  const result2 = isLove(2, 2);
+  console.log('Resultado 2:', result2);
+
+  expect(result2).toBe(false);
+  });
+});
