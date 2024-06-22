@@ -58,3 +58,7 @@ Output:
 2) false
 3) true
 4) false
+
+# Files:
+## SRC = flower.js
+## SRC => TESTS = flower.test.js
