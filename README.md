@@ -1,4 +1,4 @@
-# JS - Twice as old
+# JS - Opposites Attract
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -34,27 +34,27 @@ npm run build
 npm run test:unit
 ```
 
-# JS - Twice as old
+# JS - Opposites Attract
 
 ## Instructions:
-Write a function that calculates in how many years the father will be twice as old or how many years have passed since he was twice as old.
 
-Input: father: 36, son: 7
-father: 55, son: 30
-father: 42, son: 21
+Timmy and Sarah think they are in love, but around where they live, they will only know once they pick a flower each. If one of the flowers has an even number of petals and the other has an odd number of petals, it means they are in love.
+Write a function that takes the number of petals of each flower and returns true if they are in love and false if they are not.
 
-Output:22
-5
-0
-
-Your function should receive two arguments: current age of the father (years) and of his son (years).
-
+Example function:
+function isLove(petalsFlower1, petalsFlower2) {}
 
 ## Requirements:
-Mandatory the use of Vitest to test the function.
-Tests to perform:
-Father's age: 36 and son's age: 7
-Father's age: 55 and son's age: 30
-Father's age: 42 and son's age: 21
-Father's age: 22 and son's age: 1
-Father's age: 29 and son's age: 0
+
+- The following use cases should be tested.
+
+Input:
+1) Timmy: 1 / Sarah: 4
+2) Timmy: 2 / Sarah : 2
+3) Timmy: 0 / Sarah : 1
+4) Timmy : 0 / Sarah : 0
+Output:
+1) true
+2) false
+3) true
+4) false
